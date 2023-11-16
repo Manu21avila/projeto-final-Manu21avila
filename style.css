@@ -90,12 +90,12 @@ header nav.menu-desktop ul li {
 }
 
 /* ESTILO MENU MOBILE */
-.btn-abrir-menu i{
+.btn-abrir-menu i {
     color: #a1dcf0;
     font-size: 40px;
 }
 
-.menu-mobile{
+.menu-mobile {
     background-color: #283641;
     height: 100vh;
     position: fixed;
@@ -107,28 +107,28 @@ header nav.menu-desktop ul li {
     transition: .5s;
 }
 
-.menu-mobile.abrir-menu{
+.menu-mobile.abrir-menu {
     width: 70%;
 }
 
-.menu-mobile.abrir-menu ~ .overlay-menu{
+.menu-mobile.abrir-menu~.overlay-menu {
     display: block;
 }
 
-.menu-mobile .btn-fechar{
+.menu-mobile .btn-fechar {
     padding: 20px 5%;
 }
 
-.menu-mobile .btn-fechar{
+.menu-mobile .btn-fechar {
     color: #a1dcf0;
     font-size: 38px;
 }
 
-.menu-mobile nav ul{
+.menu-mobile nav ul {
     text-align: right;
 }
 
-.menu-mobile nav ul li a{
+.menu-mobile nav ul li a {
     color: #fff;
     font-size: 20px;
     font-weight: 300;
@@ -136,12 +136,12 @@ header nav.menu-desktop ul li {
     display: block;
 }
 
-.menu-mobile nav ul li a:hover{
+.menu-mobile nav ul li a:hover {
     background-color: #a2bcc5;
     color: #000;
 }
 
-.overlay-menu{
+.overlay-menu {
     background-color: #000000df;
     width: 100%;
     height: 100%;
@@ -541,10 +541,12 @@ form #voltar-topo input:hover {
     }
 
     .Especialidades .especialidades-box i {
+        padding: 0 40%;
         font-size: 60px;
     }
-    
+
     .Especialidades .especialidades-box h3 {
+        padding: 0 38%;
         font-size: 23px;
     }
 
@@ -599,5 +601,10 @@ form #voltar-topo input:hover {
 
     footer .line-footer {
         text-align: center;
+    }
+
+    /* ESTILO DO FORMULÁRIO DE CONTATO */
+    .main {
+        padding: 90px 8%;
     }
 }
