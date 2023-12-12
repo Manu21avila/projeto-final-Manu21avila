@@ -90,6 +90,10 @@ header nav.menu-desktop ul li {
 }
 
 /* ESTILO MENU MOBILE */
+.menu-desktop{
+    display: none;
+}
+
 .btn-abrir-menu i {
     color: #a1dcf0;
     font-size: 40px;
@@ -535,6 +539,10 @@ form #voltar-topo input:hover {
         font-size: 38px;
     }
 
+    .topo-do-site .txt-topo-site p {
+        text-align: left;
+    }
+
     .topo-do-site .img-topo-site img {
         width: 100%;
     }
@@ -562,7 +570,13 @@ form #voltar-topo input:hover {
     .sobre .txt-sobre h2 {
         font-size: 34px;
         line-height: 35px;
-        text-align: center;
+        text-align: left;
+    }
+
+    .sobre .txt-sobre p {
+        margin: 20px 0;
+        text-align: left;
+        font-size: 20px;
     }
 
     .btn-social {
